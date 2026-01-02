@@ -1,0 +1,92 @@
+name: sudafood
+description: "SudaFood - A comprehensive multi-vendor food delivery platform."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # --- 1. Firebase Core & Services (الخدمات الأساسية) ---
+  firebase_core: ^3.10.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.1
+
+  # --- 2. UI & Design (التصميم والواجهات) ---
+  # أيقونات عصرية تشبه Lucide React
+  lucide_icons: any
+  # الخطوط (لدعم خط Cairo و Inter)
+  google_fonts: ^6.1.0
+  # لعرض صور SVG (الشعارات والأيقونات المخصصة)
+  flutter_svg: ^2.0.9
+  # لتحميل صور الأكل من النت مع التخزين المؤقت (Caching)
+  cached_network_image: ^3.3.0
+  # لعرض "الهيكل العظمي" أثناء التحميل (Loading Skeleton)
+  shimmer: ^3.0.0
+  # لعمل السلايدر (Carousel) في الصفحة الرئيسية
+  carousel_slider: ^4.2.1
+  # حركات الانيميشن (لصفحة البداية والظهور)
+  animate_do: ^3.3.2
+  lottie: ^3.1.0
+
+  # --- 3. State Management & Logic (إدارة الحالة) ---
+  # لإدارة بيانات التطبيق (السلة، المستخدم، الثيم)
+  provider: ^6.1.1
+  # لحفظ الإعدادات محلياً (الوضع الليلي، اللغة، التوكن)
+  shared_preferences: ^2.5.4
+
+  # --- 4. Maps & Location (الخرائط والموقع) ---
+  # خرائط جوجل
+  google_maps_flutter: ^2.5.0
+  # لتحديد موقع المستخدم والسائق
+  geolocator: ^14.0.2
+  # لإدارة أذونات الموقع والكاميرا
+  permission_handler: ^11.3.0
+
+  # --- 5. Networking & Data (الاتصال بالسيرفر) ---
+  # أفضل مكتبة للتعامل مع الـ API ورفع الملفات
+  dio: ^5.4.0
+  # للتأكد من اتصال الإنترنت
+  connectivity_plus: ^5.0.2
+
+  # --- 6. Localization & Formatting (اللغة والتنسيق) ---
+  flutter_localizations:
+    sdk: flutter
+  # لتنسيق التواريخ والأرقام والعملات
+  intl: any
+
+  # --- 7. Vendor & Driver Utilities (أدوات المطعم والسائق) ---
+  # للرسوم البيانية في الداشبورد (Charts)
+  fl_chart: ^0.66.0
+  # لفتح تطبيق الهاتف للاتصال بالعميل
+  url_launcher: ^6.2.4
+  # لإنشاء معرفات فريدة (Unique IDs)
+  uuid: ^4.3.3
+
+  # الأيقونات الأساسية
+  cupertino_icons: ^1.0.6
+  firebase_storage: ^12.4.10
+  image_picker: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # لتحليل الكود وتنبيهك للأخطاء
+  flutter_lints: ^3.0.1
+  # أداة لتوليد أيقونة التطبيق (App Icon) بسهولة لاحقاً
+  flutter_launcher_icons: ^0.13.1
+  # أداة تغيير اسم الحزمة برمجياً
+  change_app_package_name: ^1.1.0
+
+flutter:
+  uses-material-design: true
+
+  # تعريف مجلد الصور
+  assets:
+    - assets/images/
+    - assets/icons/

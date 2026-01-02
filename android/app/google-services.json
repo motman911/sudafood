@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "360208229070",
+    "project_id": "sudafood",
+    "storage_bucket": "sudafood.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360208229070:android:07e46590e2d0ee4b61269f",
+        "android_client_info": {
+          "package_name": "com.sudafood.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360208229070-g143i0s90tsrvsvo4s2t8t3vi9dorbgb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudafood.app",
+            "certificate_hash": "69cf0cec9ed97f66dbb988d082a5f54062b03d09"
+          }
+        },
+        {
+          "client_id": "360208229070-vbs6moc7lm2egjokjkc6c0m6a15r9cli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBmDZjMpKk5krcHEC3tavf6wBlCOst1I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360208229070-vbs6moc7lm2egjokjkc6c0m6a15r9cli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "360208229070-t18th3gmasas0vjno603e10e9gvvjs1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sudafood.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"sudafood","appId":"1:360208229070:android:07e46590e2d0ee4b61269f","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"sudafood","configurations":{"android":"1:360208229070:android:07e46590e2d0ee4b61269f","web":"1:360208229070:web:aa6f7d018ad37ef461269f"}}}}}}
